@@ -1,0 +1,34 @@
+{
+  "name": "passwordless-tokenstore-test",
+  "version": "0.0.1",
+  "description": "Provides a generic test suite for Passwordless TokenStore implementations",
+  "main": "index.js",
+  "dependencies": {
+    "passwordless-tokenstore": "0.0.1",
+    "chai": "~1.9.1",
+    "chance": "^0.5.6",
+    "mocha": "~1.18.2",
+    "node-uuid": "^1.4.1"
+  },
+  "author": "Florian Heinemann <florian.heinemann@gmail.com> (http://twitter.com/thesumofall)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/florianheinemann/passwordless-tokenstore-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/florianheinemann/passwordless-tokenstore-test/issues"
+  },
+  "homepage": "https://github.com/florianheinemann/passwordless-tokenstore-test",
+  "keywords": [
+    "passwordless",
+    "nopassword",
+    "no-password",
+    "password-less",
+    "tokenstore"
+  ],
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
