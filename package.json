@@ -1,6 +1,6 @@
 {
   "name": "passwordless-tokenstore-test",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Provides a generic test suite for Passwordless TokenStore implementations",
   "main": "index.js",
   "dependencies": {
