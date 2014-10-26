@@ -51,12 +51,13 @@ describe('Your specific tests', function() {
 The exported function has to be called with the following parameter:
 
 ```javascript
-standardTests(TokenStoreFactory(), beforeEachTest(done), afterEachTest(done));
+standardTests(TokenStoreFactory(), beforeEachTest(done), afterEachTest(done), [timeout]);
 ```
 
 - TokenStoreFactory: has to provide a fresh instance of your TokenStore with each call
 - beforeEachTest: will be called before each test of the standard test suite. Please make sure that you call done()
 - afterEachTest: will be called after each test of the standard test suite. Please make sure that you call done()
+- timeout (defaults to 200ms): The expected time it takes to store the data in the database in a typical test environment. A higher value will slow down your tests, but a too low value might result in failed tests due to data that is not yet written
 
 All parameters are mandatory.
 
