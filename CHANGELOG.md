@@ -1,3 +1,6 @@
+# 0.1.4		2015-Jul-13
+- ADD defines behaviour if originUrl is passed as null
+
 # 0.1.3		2015-Jul-13
 - BUGFIX throws were not properly detected in several instances
 
