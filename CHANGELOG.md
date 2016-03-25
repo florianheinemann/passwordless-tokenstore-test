@@ -1,4 +1,4 @@
-# 0.1.4		2015-Jul-13
+# 0.1.4		2016-Mar-25
 - ADD defines behaviour if originUrl is passed as null
 
 # 0.1.3		2015-Jul-13
